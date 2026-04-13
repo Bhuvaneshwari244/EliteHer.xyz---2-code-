@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+// Use backend URL from environment variable, or default to deployed backend
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://aura-backend-tau.vercel.app/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
