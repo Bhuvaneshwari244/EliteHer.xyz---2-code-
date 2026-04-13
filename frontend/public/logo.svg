@@ -1,0 +1,45 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="60" cy="60" r="58" fill="url(#gradient1)" stroke="url(#gradient2)" stroke-width="4"/>
+  
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ee5a6f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffc6c7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ee5a6f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffb4a2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fff5f5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Flower Petals (representing femininity and health) -->
+  <g transform="translate(60, 60)">
+    <!-- Center Circle -->
+    <circle cx="0" cy="0" r="12" fill="url(#gradient3)"/>
+    
+    <!-- Petals -->
+    <ellipse cx="0" cy="-22" rx="10" ry="16" fill="url(#gradient3)" opacity="0.9"/>
+    <ellipse cx="19" cy="-11" rx="10" ry="16" fill="url(#gradient3)" opacity="0.9" transform="rotate(60 19 -11)"/>
+    <ellipse cx="19" cy="11" rx="10" ry="16" fill="url(#gradient3)" opacity="0.9" transform="rotate(120 19 11)"/>
+    <ellipse cx="0" cy="22" rx="10" ry="16" fill="url(#gradient3)" opacity="0.9" transform="rotate(180 0 22)"/>
+    <ellipse cx="-19" cy="11" rx="10" ry="16" fill="url(#gradient3)" opacity="0.9" transform="rotate(240 -19 11)"/>
+    <ellipse cx="-19" cy="-11" rx="10" ry="16" fill="url(#gradient3)" opacity="0.9" transform="rotate(300 -19 -11)"/>
+    
+    <!-- Heart in center (representing health and care) -->
+    <path d="M 0,-4 C -2,-6 -5,-6 -6,-4 C -7,-2 -7,0 -4,3 L 0,6 L 4,3 C 7,0 7,-2 6,-4 C 5,-6 2,-6 0,-4 Z" 
+          fill="#ff6b6b" opacity="0.8"/>
+  </g>
+  
+  <!-- Decorative dots -->
+  <circle cx="30" cy="30" r="3" fill="#fff5f5" opacity="0.6"/>
+  <circle cx="90" cy="30" r="3" fill="#fff5f5" opacity="0.6"/>
+  <circle cx="30" cy="90" r="3" fill="#fff5f5" opacity="0.6"/>
+  <circle cx="90" cy="90" r="3" fill="#fff5f5" opacity="0.6"/>
+</svg>

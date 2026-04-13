@@ -1,0 +1,1859 @@
+// Multi-language translations for Aura app
+export const translations = {
+  en: {
+    // Common
+    common: {
+      appName: 'Aura',
+      tagline: 'Your Personal Period Tracking Companion',
+      logout: 'Logout',
+      back: 'Back',
+      save: 'Save',
+      cancel: 'Cancel',
+      delete: 'Delete',
+      edit: 'Edit',
+      add: 'Add',
+      submit: 'Submit',
+      loading: 'Loading...',
+      privateSecure: 'Private & Secure',
+      yes: 'Yes',
+      no: 'No'
+    },
+    
+    // Navigation
+    nav: {
+      dashboard: 'Dashboard',
+      calendar: 'Calendar',
+      cycles: 'Cycle Tracker',
+      symptoms: 'Symptom Logger',
+      journal: 'Journal',
+      doctors: 'Doctor Consultation',
+      pcod: 'PCOD Assessment',
+      insights: 'Health Insights',
+      wellness: 'Wellness Hub',
+      advanced: 'Advanced',
+      settings: 'Settings'
+    },
+    
+    // Auth
+    auth: {
+      login: 'Login',
+      register: 'Register',
+      email: 'Email',
+      password: 'Password',
+      confirmPassword: 'Confirm Password',
+      loginTitle: 'Welcome Back',
+      registerTitle: 'Create Account',
+      noAccount: "Don't have an account?",
+      haveAccount: 'Already have an account?',
+      signUp: 'Sign up',
+      signIn: 'Sign in'
+    },
+    
+    // Dashboard
+    dashboard: {
+      welcome: 'Welcome to Aura',
+      overview: 'Your Health Overview',
+      nextPeriod: 'Next Period',
+      daysUntil: 'days until next period',
+      cycleTracking: 'Cycle Tracking',
+      avgCycleLength: 'Average Cycle Length',
+      symptomLogger: 'Symptom Logger',
+      pcodRisk: 'PCOD Risk',
+      healthScore: 'Overall Health Score',
+      quickStats: 'Quick Stats',
+      streak: 'Day Streak'
+    },
+    
+    // Cycle Tracker
+    cycles: {
+      title: 'Cycle Tracker',
+      subtitle: 'Track your menstrual cycles',
+      logCycle: 'Log New Cycle',
+      startDate: 'Start Date',
+      endDate: 'End Date',
+      flowIntensity: 'Flow Intensity',
+      light: 'Light',
+      medium: 'Medium',
+      heavy: 'Heavy',
+      notes: 'Notes',
+      cycleHistory: 'Cycle History',
+      days: 'days',
+      noCycles: 'No cycles logged yet'
+    },
+    
+    symptoms: {
+      title: 'Symptom Logger',
+      subtitle: 'Track your daily symptoms',
+      logSymptoms: 'Log Symptoms',
+      selectSymptoms: 'Select Symptoms',
+      mood: 'Mood',
+      painLevel: 'Pain Level',
+      cramps: 'Cramps',
+      headache: 'Headache',
+      bloating: 'Bloating',
+      fatigue: 'Fatigue',
+      acne: 'Acne',
+      backPain: 'Back Pain',
+      breastTenderness: 'Breast Tenderness',
+      nausea: 'Nausea',
+      diarrhea: 'Diarrhea',
+      constipation: 'Constipation',
+      moodSwings: 'Mood Swings',
+      anxiety: 'Anxiety',
+      depression: 'Depression',
+      insomnia: 'Insomnia',
+      noSymptoms: 'No symptoms logged yet'
+    },
+    
+    insights: {
+      title: 'Health Insights',
+      subtitle: 'AI-powered health analytics',
+      cyclePhase: 'Current Cycle Phase',
+      symptomInsights: 'Symptom Insights',
+      moodTrends: 'Mood Trends',
+      predictions: 'Symptom Predictions',
+      forecast: 'Next 7 Days Forecast',
+      commonSymptoms: 'Your Most Common Symptoms',
+      fertility: 'Fertility Calculator'
+    },
+    
+    wellness: {
+      title: 'Wellness Hub',
+      subtitle: 'Your health companion',
+      waterTracker: 'Water Tracker',
+      exerciseLogger: 'Exercise Logger',
+      sleepTracker: 'Sleep Tracker',
+      nutritionTracker: 'Nutrition Tracker',
+      goalTracker: 'Health Goals',
+      communitySupport: 'Community Support',
+      tips: 'Wellness Tips'
+    },
+    
+    settings: {
+      title: 'Settings',
+      subtitle: 'Manage your preferences',
+      notifications: 'Notifications',
+      privacy: 'Privacy & Security',
+      preferences: 'Preferences',
+      language: 'Language',
+      theme: 'Theme',
+      dataManagement: 'Data Management',
+      emergencyContacts: 'Emergency Contacts',
+      about: 'About'
+    },
+    
+    footer: {
+      disclaimer: 'For informational purposes only. Always consult a healthcare professional for medical advice.'
+    },
+    
+    // Advanced Features
+    advanced: {
+      title: 'Advanced Features',
+      subtitle: 'Cutting-edge tools for comprehensive health tracking',
+      poweredBy: 'Advanced features powered by AI and modern technology',
+      voiceLogger: 'Voice Symptom Logger',
+      painMap: 'Pain Heat Map',
+      horoscope: 'Hormone Horoscope',
+      emergency: 'Period Emergency',
+      fertility: 'Fertility Calculator',
+      supplements: 'Supplement Tracker',
+      breastExam: 'Breast Self-Exam',
+      pcodDiet: 'PCOD Diet Planner',
+      pcodSymptoms: 'PCOD Symptom Tracker',
+      pcodExercise: 'PCOD Exercise Planner',
+      pcodWeight: 'PCOD Weight Tracker'
+    }
+  },
+  
+  hi: {
+    // Common (Hindi)
+    common: {
+      appName: 'ऑरा',
+      tagline: 'आपका व्यक्तिगत पीरियड ट्रैकिंग साथी',
+      logout: 'लॉग आउट',
+      back: 'वापस',
+      save: 'सहेजें',
+      cancel: 'रद्द करें',
+      delete: 'हटाएं',
+      edit: 'संपादित करें',
+      add: 'जोड़ें',
+      submit: 'जमा करें',
+      loading: 'लोड हो रहा है...',
+      privateSecure: 'निजी और सुरक्षित',
+      yes: 'हाँ',
+      no: 'नहीं'
+    },
+    
+    nav: {
+      dashboard: 'डैशबोर्ड',
+      calendar: 'कैलेंडर',
+      cycles: 'साइकिल ट्रैकर',
+      symptoms: 'लक्षण लॉगर',
+      journal: 'जर्नल',
+      doctors: 'डॉक्टर परामर्श',
+      pcod: 'पीसीओडी मूल्यांकन',
+      insights: 'स्वास्थ्य जानकारी',
+      wellness: 'वेलनेस हब',
+      advanced: 'उन्नत',
+      settings: 'सेटिंग्स'
+    },
+    
+    auth: {
+      login: 'लॉगिन',
+      register: 'रजिस्टर',
+      email: 'ईमेल',
+      password: 'पासवर्ड',
+      confirmPassword: 'पासवर्ड की पुष्टि करें',
+      loginTitle: 'वापसी पर स्वागत है',
+      registerTitle: 'खाता बनाएं',
+      noAccount: 'खाता नहीं है?',
+      haveAccount: 'पहले से खाता है?',
+      signUp: 'साइन अप करें',
+      signIn: 'साइन इन करें'
+    },
+    
+    dashboard: {
+      welcome: 'ऑरा में आपका स्वागत है',
+      overview: 'आपका स्वास्थ्य अवलोकन',
+      nextPeriod: 'अगली माहवारी',
+      daysUntil: 'दिन बाकी',
+      cycleTracking: 'साइकिल ट्रैकिंग',
+      avgCycleLength: 'औसत साइकिल लंबाई',
+      symptomLogger: 'लक्षण लॉगर',
+      pcodRisk: 'पीसीओडी जोखिम',
+      healthScore: 'समग्र स्वास्थ्य स्कोर',
+      quickStats: 'त्वरित आंकड़े',
+      streak: 'दिन की लकीर'
+    },
+    
+    cycles: {
+      title: 'साइकिल ट्रैकर',
+      subtitle: 'अपनी माहवारी चक्र ट्रैक करें',
+      logCycle: 'नया साइकिल लॉग करें',
+      startDate: 'शुरुआत की तारीख',
+      endDate: 'समाप्ति तिथि',
+      flowIntensity: 'प्रवाह तीव्रता',
+      light: 'हल्का',
+      medium: 'मध्यम',
+      heavy: 'भारी',
+      notes: 'नोट्स',
+      cycleHistory: 'साइकिल इतिहास',
+      days: 'दिन',
+      noCycles: 'अभी तक कोई साइकिल लॉग नहीं'
+    },
+    
+    symptoms: {
+      title: 'लक्षण लॉगर',
+      subtitle: 'अपने दैनिक लक्षण ट्रैक करें',
+      logSymptoms: 'लक्षण लॉग करें',
+      selectSymptoms: 'लक्षण चुनें',
+      mood: 'मूड',
+      painLevel: 'दर्द का स्तर',
+      cramps: 'ऐंठन',
+      headache: 'सिरदर्द',
+      bloating: 'सूजन',
+      fatigue: 'थकान',
+      acne: 'मुंहासे',
+      backPain: 'पीठ दर्द',
+      breastTenderness: 'स्तन कोमलता',
+      nausea: 'मतली',
+      diarrhea: 'दस्त',
+      constipation: 'कब्ज',
+      moodSwings: 'मूड स्विंग',
+      anxiety: 'चिंता',
+      depression: 'अवसाद',
+      insomnia: 'अनिद्रा',
+      noSymptoms: 'अभी तक कोई लक्षण लॉग नहीं'
+    },
+    
+    insights: {
+      title: 'स्वास्थ्य जानकारी',
+      subtitle: 'एआई-संचालित स्वास्थ्य विश्लेषण',
+      cyclePhase: 'वर्तमान चक्र चरण',
+      symptomInsights: 'लक्षण अंतर्दृष्टि',
+      moodTrends: 'मूड रुझान',
+      predictions: 'लक्षण भविष्यवाणियां',
+      forecast: 'अगले 7 दिनों का पूर्वानुमान',
+      commonSymptoms: 'आपके सबसे आम लक्षण',
+      fertility: 'प्रजनन कैलकुलेटर'
+    },
+    
+    wellness: {
+      title: 'वेलनेस हब',
+      subtitle: 'आपका स्वास्थ्य साथी',
+      waterTracker: 'पानी ट्रैकर',
+      exerciseLogger: 'व्यायाम लॉगर',
+      sleepTracker: 'नींद ट्रैकर',
+      nutritionTracker: 'पोषण ट्रैकर',
+      goalTracker: 'स्वास्थ्य लक्ष्य',
+      communitySupport: 'सामुदायिक समर्थन',
+      tips: 'वेलनेस टिप्स'
+    },
+    
+    settings: {
+      title: 'सेटिंग्स',
+      subtitle: 'अपनी प्राथमिकताएं प्रबंधित करें',
+      notifications: 'सूचनाएं',
+      privacy: 'गोपनीयता और सुरक्षा',
+      preferences: 'प्राथमिकताएं',
+      language: 'भाषा',
+      theme: 'थीम',
+      dataManagement: 'डेटा प्रबंधन',
+      emergencyContacts: 'आपातकालीन संपर्क',
+      about: 'के बारे में'
+    },
+    
+    footer: {
+      disclaimer: 'केवल सूचनात्मक उद्देश्यों के लिए। हमेशा चिकित्सा सलाह के लिए स्वास्थ्य पेशेवर से परामर्श करें।'
+    },
+    
+    advanced: {
+      title: 'उन्नत सुविधाएं',
+      subtitle: 'व्यापक स्वास्थ्य ट्रैकिंग के लिए अत्याधुनिक उपकरण',
+      poweredBy: 'एआई और आधुनिक तकनीक द्वारा संचालित उन्नत सुविधाएं',
+      voiceLogger: 'वॉयस लक्षण लॉगर',
+      painMap: 'दर्द हीट मैप',
+      horoscope: 'हार्मोन राशिफल',
+      emergency: 'पीरियड आपातकाल',
+      fertility: 'प्रजनन कैलकुलेटर',
+      supplements: 'सप्लीमेंट ट्रैकर',
+      breastExam: 'स्तन स्व-परीक्षा',
+      pcodDiet: 'पीसीओडी आहार योजनाकार',
+      pcodSymptoms: 'पीसीओडी लक्षण ट्रैकर',
+      pcodExercise: 'पीसीओडी व्यायाम योजनाकार',
+      pcodWeight: 'पीसीओडी वजन ट्रैकर'
+    }
+  },
+  
+  es: {
+    // Common (Spanish)
+    common: {
+      appName: 'Aura',
+      tagline: 'Tu Compañero Personal de Seguimiento del Período',
+      logout: 'Cerrar Sesión',
+      back: 'Atrás',
+      save: 'Guardar',
+      cancel: 'Cancelar',
+      delete: 'Eliminar',
+      edit: 'Editar',
+      add: 'Agregar',
+      submit: 'Enviar',
+      loading: 'Cargando...',
+      privateSecure: 'Privado y Seguro',
+      yes: 'Sí',
+      no: 'No'
+    },
+    
+    nav: {
+      dashboard: 'Panel',
+      calendar: 'Calendario',
+      cycles: 'Rastreador de Ciclos',
+      symptoms: 'Registro de Síntomas',
+      journal: 'Diario',
+      doctors: 'Consulta Médica',
+      pcod: 'Evaluación PCOD',
+      insights: 'Información de Salud',
+      wellness: 'Centro de Bienestar',
+      advanced: 'Avanzado',
+      settings: 'Configuración'
+    },
+    
+    auth: {
+      login: 'Iniciar Sesión',
+      register: 'Registrarse',
+      email: 'Correo Electrónico',
+      password: 'Contraseña',
+      confirmPassword: 'Confirmar Contraseña',
+      loginTitle: 'Bienvenido de Nuevo',
+      registerTitle: 'Crear Cuenta',
+      noAccount: '¿No tienes cuenta?',
+      haveAccount: '¿Ya tienes cuenta?',
+      signUp: 'Regístrate',
+      signIn: 'Inicia sesión'
+    },
+    
+    dashboard: {
+      welcome: 'Bienvenido a Aura',
+      overview: 'Tu Resumen de Salud',
+      nextPeriod: 'Próximo Período',
+      daysUntil: 'días hasta el próximo período',
+      cycleTracking: 'Seguimiento de Ciclos',
+      avgCycleLength: 'Duración Promedio del Ciclo',
+      symptomLogger: 'Registro de Síntomas',
+      pcodRisk: 'Riesgo de PCOD',
+      healthScore: 'Puntuación General de Salud',
+      quickStats: 'Estadísticas Rápidas',
+      streak: 'Racha de Días'
+    },
+    
+    cycles: {
+      title: 'Rastreador de Ciclos',
+      subtitle: 'Rastrea tus ciclos menstruales',
+      logCycle: 'Registrar Nuevo Ciclo',
+      startDate: 'Fecha de Inicio',
+      endDate: 'Fecha de Fin',
+      flowIntensity: 'Intensidad del Flujo',
+      light: 'Ligero',
+      medium: 'Medio',
+      heavy: 'Abundante',
+      notes: 'Notas',
+      cycleHistory: 'Historial de Ciclos',
+      days: 'días',
+      noCycles: 'No hay ciclos registrados aún'
+    },
+    
+    symptoms: {
+      title: 'Registro de Síntomas',
+      subtitle: 'Rastrea tus síntomas diarios',
+      logSymptoms: 'Registrar Síntomas',
+      selectSymptoms: 'Seleccionar Síntomas',
+      mood: 'Estado de Ánimo',
+      painLevel: 'Nivel de Dolor',
+      cramps: 'Calambres',
+      headache: 'Dolor de Cabeza',
+      bloating: 'Hinchazón',
+      fatigue: 'Fatiga',
+      acne: 'Acné',
+      backPain: 'Dolor de Espalda',
+      breastTenderness: 'Sensibilidad en los Senos',
+      nausea: 'Náuseas',
+      diarrhea: 'Diarrea',
+      constipation: 'Estreñimiento',
+      moodSwings: 'Cambios de Humor',
+      anxiety: 'Ansiedad',
+      depression: 'Depresión',
+      insomnia: 'Insomnio',
+      noSymptoms: 'No hay síntomas registrados aún'
+    },
+    
+    insights: {
+      title: 'Información de Salud',
+      subtitle: 'Análisis de salud con IA',
+      cyclePhase: 'Fase Actual del Ciclo',
+      symptomInsights: 'Información de Síntomas',
+      moodTrends: 'Tendencias de Humor',
+      predictions: 'Predicciones de Síntomas',
+      forecast: 'Pronóstico de los Próximos 7 Días',
+      commonSymptoms: 'Tus Síntomas Más Comunes',
+      fertility: 'Calculadora de Fertilidad'
+    },
+    
+    wellness: {
+      title: 'Centro de Bienestar',
+      subtitle: 'Tu compañero de salud',
+      waterTracker: 'Rastreador de Agua',
+      exerciseLogger: 'Registro de Ejercicio',
+      sleepTracker: 'Rastreador de Sueño',
+      nutritionTracker: 'Rastreador de Nutrición',
+      goalTracker: 'Objetivos de Salud',
+      communitySupport: 'Apoyo Comunitario',
+      tips: 'Consejos de Bienestar'
+    },
+    
+    settings: {
+      title: 'Configuración',
+      subtitle: 'Administra tus preferencias',
+      notifications: 'Notificaciones',
+      privacy: 'Privacidad y Seguridad',
+      preferences: 'Preferencias',
+      language: 'Idioma',
+      theme: 'Tema',
+      dataManagement: 'Gestión de Datos',
+      emergencyContacts: 'Contactos de Emergencia',
+      about: 'Acerca de'
+    },
+    
+    footer: {
+      disclaimer: 'Solo con fines informativos. Siempre consulte a un profesional de la salud para obtener asesoramiento médico.'
+    },
+    
+    advanced: {
+      title: 'Funciones Avanzadas',
+      subtitle: 'Herramientas de vanguardia para seguimiento integral',
+      poweredBy: 'Funciones avanzadas impulsadas por IA y tecnología moderna',
+      voiceLogger: 'Registro de Voz',
+      painMap: 'Mapa de Dolor',
+      horoscope: 'Horóscopo Hormonal',
+      emergency: 'Emergencia Período',
+      fertility: 'Calculadora Fertilidad',
+      supplements: 'Rastreador Suplementos',
+      breastExam: 'Autoexamen Mamario',
+      pcodDiet: 'Planificador Dieta PCOD',
+      pcodSymptoms: 'Rastreador Síntomas PCOD',
+      pcodExercise: 'Planificador Ejercicio PCOD',
+      pcodWeight: 'Rastreador Peso PCOD'
+    }
+  },
+  
+  fr: {
+    // Common (French)
+    common: {
+      appName: 'Aura',
+      tagline: 'Votre Compagnon Personnel de Suivi des Règles',
+      logout: 'Déconnexion',
+      back: 'Retour',
+      save: 'Enregistrer',
+      cancel: 'Annuler',
+      delete: 'Supprimer',
+      edit: 'Modifier',
+      add: 'Ajouter',
+      submit: 'Soumettre',
+      loading: 'Chargement...',
+      privateSecure: 'Privé et Sécurisé',
+      yes: 'Oui',
+      no: 'Non'
+    },
+    
+    nav: {
+      dashboard: 'Tableau de Bord',
+      calendar: 'Calendrier',
+      cycles: 'Suivi des Cycles',
+      symptoms: 'Journal des Symptômes',
+      journal: 'Journal',
+      doctors: 'Consultation Médicale',
+      pcod: 'Évaluation SOPK',
+      insights: 'Informations Santé',
+      wellness: 'Centre de Bien-être',
+      advanced: 'Avancé',
+      settings: 'Paramètres'
+    },
+    
+    auth: {
+      login: 'Connexion',
+      register: "S'inscrire",
+      email: 'Email',
+      password: 'Mot de passe',
+      confirmPassword: 'Confirmer le mot de passe',
+      loginTitle: 'Bon Retour',
+      registerTitle: 'Créer un Compte',
+      noAccount: "Pas de compte?",
+      haveAccount: 'Déjà un compte?',
+      signUp: 'Inscrivez-vous',
+      signIn: 'Connectez-vous'
+    },
+    
+    dashboard: {
+      welcome: 'Bienvenue sur Aura',
+      overview: 'Votre Aperçu Santé',
+      nextPeriod: 'Prochaines Règles',
+      daysUntil: 'jours avant les prochaines règles',
+      cycleTracking: 'Suivi des Cycles',
+      avgCycleLength: 'Durée Moyenne du Cycle',
+      symptomLogger: 'Journal des Symptômes',
+      pcodRisk: 'Risque de SOPK',
+      healthScore: 'Score de Santé Global',
+      quickStats: 'Statistiques Rapides',
+      streak: 'Série de Jours'
+    },
+    
+    cycles: {
+      title: 'Suivi des Cycles',
+      subtitle: 'Suivez vos cycles menstruels',
+      logCycle: 'Enregistrer un Nouveau Cycle',
+      startDate: 'Date de Début',
+      endDate: 'Date de Fin',
+      flowIntensity: 'Intensité du Flux',
+      light: 'Léger',
+      medium: 'Moyen',
+      heavy: 'Abondant',
+      notes: 'Notes',
+      cycleHistory: 'Historique des Cycles',
+      days: 'jours',
+      noCycles: 'Aucun cycle enregistré'
+    },
+    
+    symptoms: {
+      title: 'Journal des Symptômes',
+      subtitle: 'Suivez vos symptômes quotidiens',
+      logSymptoms: 'Enregistrer les Symptômes',
+      selectSymptoms: 'Sélectionner les Symptômes',
+      mood: 'Humeur',
+      painLevel: 'Niveau de Douleur',
+      cramps: 'Crampes',
+      headache: 'Mal de Tête',
+      bloating: 'Ballonnements',
+      fatigue: 'Fatigue',
+      acne: 'Acné',
+      backPain: 'Mal de Dos',
+      breastTenderness: 'Sensibilité des Seins',
+      nausea: 'Nausées',
+      diarrhea: 'Diarrhée',
+      constipation: 'Constipation',
+      moodSwings: "Sautes d'Humeur",
+      anxiety: 'Anxiété',
+      depression: 'Dépression',
+      insomnia: 'Insomnie',
+      noSymptoms: 'Aucun symptôme enregistré'
+    },
+    
+    insights: {
+      title: 'Informations Santé',
+      subtitle: 'Analyses de santé par IA',
+      cyclePhase: 'Phase Actuelle du Cycle',
+      symptomInsights: 'Aperçu des Symptômes',
+      moodTrends: "Tendances de l'Humeur",
+      predictions: 'Prédictions de Symptômes',
+      forecast: 'Prévisions pour les 7 Prochains Jours',
+      commonSymptoms: 'Vos Symptômes les Plus Courants',
+      fertility: 'Calculateur de Fertilité'
+    },
+    
+    wellness: {
+      title: 'Centre de Bien-être',
+      subtitle: 'Votre compagnon santé',
+      waterTracker: "Suivi de l'Eau",
+      exerciseLogger: "Journal d'Exercice",
+      sleepTracker: 'Suivi du Sommeil',
+      nutritionTracker: 'Suivi Nutritionnel',
+      goalTracker: 'Objectifs de Santé',
+      communitySupport: 'Soutien Communautaire',
+      tips: 'Conseils Bien-être'
+    },
+    
+    settings: {
+      title: 'Paramètres',
+      subtitle: 'Gérez vos préférences',
+      notifications: 'Notifications',
+      privacy: 'Confidentialité et Sécurité',
+      preferences: 'Préférences',
+      language: 'Langue',
+      theme: 'Thème',
+      dataManagement: 'Gestion des Données',
+      emergencyContacts: "Contacts d'Urgence",
+      about: 'À Propos'
+    },
+    
+    footer: {
+      disclaimer: 'À titre informatif uniquement. Consultez toujours un professionnel de la santé pour des conseils médicaux.'
+    },
+    
+    advanced: {
+      title: 'Fonctionnalités Avancées',
+      subtitle: 'Outils de pointe pour un suivi complet',
+      poweredBy: 'Fonctionnalités avancées alimentées par IA et technologie moderne',
+      voiceLogger: 'Enregistreur Vocal',
+      painMap: 'Carte de Douleur',
+      horoscope: 'Horoscope Hormonal',
+      emergency: 'Urgence Période',
+      fertility: 'Calculateur Fertilité',
+      supplements: 'Suivi Suppléments',
+      breastExam: 'Auto-examen Seins',
+      pcodDiet: 'Planificateur Régime SOPK',
+      pcodSymptoms: 'Suivi Symptômes SOPK',
+      pcodExercise: 'Planificateur Exercice SOPK',
+      pcodWeight: 'Suivi Poids SOPK'
+    }
+  },
+  
+  de: {
+    // German
+    common: {
+      appName: 'Aura',
+      tagline: 'Ihr Persönlicher Perioden-Tracker',
+      logout: 'Abmelden',
+      back: 'Zurück',
+      save: 'Speichern',
+      cancel: 'Abbrechen',
+      delete: 'Löschen',
+      edit: 'Bearbeiten',
+      add: 'Hinzufügen',
+      submit: 'Absenden',
+      loading: 'Lädt...',
+      privateSecure: 'Privat & Sicher',
+      yes: 'Ja',
+      no: 'Nein'
+    },
+    nav: {
+      dashboard: 'Dashboard',
+      calendar: 'Kalender',
+      cycles: 'Zyklus-Tracker',
+      symptoms: 'Symptom-Tagebuch',
+      journal: 'Tagebuch',
+      doctors: 'Arztberatung',
+      pcod: 'PCOS-Bewertung',
+      insights: 'Gesundheitseinblicke',
+      wellness: 'Wellness-Hub',
+      advanced: 'Erweitert',
+      settings: 'Einstellungen'
+    },
+    auth: {
+      login: 'Anmelden',
+      register: 'Registrieren',
+      email: 'E-Mail',
+      password: 'Passwort',
+      confirmPassword: 'Passwort bestätigen',
+      loginTitle: 'Willkommen zurück',
+      registerTitle: 'Konto erstellen',
+      noAccount: 'Kein Konto?',
+      haveAccount: 'Bereits ein Konto?',
+      signUp: 'Registrieren',
+      signIn: 'Anmelden'
+    },
+    dashboard: {
+      welcome: 'Willkommen bei Aura',
+      overview: 'Ihre Gesundheitsübersicht',
+      nextPeriod: 'Nächste Periode',
+      daysUntil: 'Tage bis zur nächsten Periode',
+      cycleTracking: 'Zyklus-Tracking',
+      avgCycleLength: 'Durchschnittliche Zykluslänge',
+      symptomLogger: 'Symptom-Tagebuch',
+      pcodRisk: 'PCOS-Risiko',
+      healthScore: 'Gesundheitswert',
+      quickStats: 'Schnellstatistiken',
+      streak: 'Tage-Serie'
+    },
+    cycles: {
+      title: 'Zyklus-Tracker',
+      subtitle: 'Verfolgen Sie Ihre Menstruationszyklen',
+      logCycle: 'Neuen Zyklus erfassen',
+      startDate: 'Startdatum',
+      endDate: 'Enddatum',
+      flowIntensity: 'Flussstärke',
+      light: 'Leicht',
+      medium: 'Mittel',
+      heavy: 'Stark',
+      notes: 'Notizen',
+      cycleHistory: 'Zyklusverlauf',
+      days: 'Tage',
+      noCycles: 'Noch keine Zyklen erfasst'
+    },
+    symptoms: {
+      title: 'Symptom-Tagebuch',
+      subtitle: 'Verfolgen Sie Ihre täglichen Symptome',
+      logSymptoms: 'Symptome erfassen',
+      selectSymptoms: 'Symptome auswählen',
+      mood: 'Stimmung',
+      painLevel: 'Schmerzniveau',
+      cramps: 'Krämpfe',
+      headache: 'Kopfschmerzen',
+      bloating: 'Blähungen',
+      fatigue: 'Müdigkeit',
+      acne: 'Akne',
+      backPain: 'Rückenschmerzen',
+      breastTenderness: 'Brustspannen',
+      nausea: 'Übelkeit',
+      diarrhea: 'Durchfall',
+      constipation: 'Verstopfung',
+      moodSwings: 'Stimmungsschwankungen',
+      anxiety: 'Angst',
+      depression: 'Depression',
+      insomnia: 'Schlaflosigkeit',
+      noSymptoms: 'Noch keine Symptome erfasst'
+    },
+    insights: {
+      title: 'Gesundheitseinblicke',
+      subtitle: 'KI-gestützte Gesundheitsanalyse',
+      cyclePhase: 'Aktuelle Zyklusphase',
+      symptomInsights: 'Symptom-Einblicke',
+      moodTrends: 'Stimmungstrends',
+      predictions: 'Symptomvorhersagen',
+      forecast: 'Vorhersage für die nächsten 7 Tage',
+      commonSymptoms: 'Ihre häufigsten Symptome',
+      fertility: 'Fruchtbarkeitsrechner'
+    },
+    wellness: {
+      title: 'Wellness-Hub',
+      subtitle: 'Ihr Gesundheitsbegleiter',
+      waterTracker: 'Wasser-Tracker',
+      exerciseLogger: 'Trainingsprotokoll',
+      sleepTracker: 'Schlaf-Tracker',
+      nutritionTracker: 'Ernährungs-Tracker',
+      goalTracker: 'Gesundheitsziele',
+      communitySupport: 'Community-Unterstützung',
+      tips: 'Wellness-Tipps'
+    },
+    settings: {
+      title: 'Einstellungen',
+      subtitle: 'Verwalten Sie Ihre Einstellungen',
+      notifications: 'Benachrichtigungen',
+      privacy: 'Datenschutz & Sicherheit',
+      preferences: 'Einstellungen',
+      language: 'Sprache',
+      theme: 'Design',
+      dataManagement: 'Datenverwaltung',
+      emergencyContacts: 'Notfallkontakte',
+      about: 'Über'
+    },
+    footer: {
+      disclaimer: 'Nur zu Informationszwecken. Konsultieren Sie immer einen Arzt für medizinischen Rat.'
+    },
+    advanced: {
+      title: 'Erweiterte Funktionen',
+      subtitle: 'Modernste Tools für umfassendes Gesundheits-Tracking',
+      poweredBy: 'Erweiterte Funktionen powered by KI und moderne Technologie',
+      voiceLogger: 'Sprach-Symptom-Logger',
+      painMap: 'Schmerz-Heatmap',
+      horoscope: 'Hormon-Horoskop',
+      emergency: 'Perioden-Notfall',
+      fertility: 'Fruchtbarkeitsrechner',
+      supplements: 'Nahrungsergänzungs-Tracker',
+      breastExam: 'Brust-Selbstuntersuchung',
+      pcodDiet: 'PCOS-Diätplaner',
+      pcodSymptoms: 'PCOS-Symptom-Tracker',
+      pcodExercise: 'PCOS-Trainingsplaner',
+      pcodWeight: 'PCOS-Gewichts-Tracker'
+    }
+  },
+  
+  pt: {
+    // Portuguese
+    common: {
+      appName: 'Aura',
+      tagline: 'Seu Companheiro Pessoal de Rastreamento do Período',
+      logout: 'Sair',
+      back: 'Voltar',
+      save: 'Salvar',
+      cancel: 'Cancelar',
+      delete: 'Excluir',
+      edit: 'Editar',
+      add: 'Adicionar',
+      submit: 'Enviar',
+      loading: 'Carregando...',
+      privateSecure: 'Privado e Seguro',
+      yes: 'Sim',
+      no: 'Não'
+    },
+    nav: {
+      dashboard: 'Painel',
+      calendar: 'Calendário',
+      cycles: 'Rastreador de Ciclos',
+      symptoms: 'Registro de Sintomas',
+      journal: 'Diário',
+      doctors: 'Consulta Médica',
+      pcod: 'Avaliação SOP',
+      insights: 'Insights de Saúde',
+      wellness: 'Centro de Bem-estar',
+      advanced: 'Avançado',
+      settings: 'Configurações'
+    },
+    auth: {
+      login: 'Entrar',
+      register: 'Registrar',
+      email: 'E-mail',
+      password: 'Senha',
+      confirmPassword: 'Confirmar Senha',
+      loginTitle: 'Bem-vindo de Volta',
+      registerTitle: 'Criar Conta',
+      noAccount: 'Não tem conta?',
+      haveAccount: 'Já tem conta?',
+      signUp: 'Cadastre-se',
+      signIn: 'Entre'
+    },
+    dashboard: {
+      welcome: 'Bem-vindo ao Aura',
+      overview: 'Sua Visão Geral de Saúde',
+      nextPeriod: 'Próximo Período',
+      daysUntil: 'dias até o próximo período',
+      cycleTracking: 'Rastreamento de Ciclos',
+      avgCycleLength: 'Duração Média do Ciclo',
+      symptomLogger: 'Registro de Sintomas',
+      pcodRisk: 'Risco de SOP',
+      healthScore: 'Pontuação de Saúde',
+      quickStats: 'Estatísticas Rápidas',
+      streak: 'Sequência de Dias'
+    },
+    cycles: {
+      title: 'Rastreador de Ciclos',
+      subtitle: 'Rastreie seus ciclos menstruais',
+      logCycle: 'Registrar Novo Ciclo',
+      startDate: 'Data de Início',
+      endDate: 'Data de Término',
+      flowIntensity: 'Intensidade do Fluxo',
+      light: 'Leve',
+      medium: 'Médio',
+      heavy: 'Intenso',
+      notes: 'Notas',
+      cycleHistory: 'Histórico de Ciclos',
+      days: 'dias',
+      noCycles: 'Nenhum ciclo registrado ainda'
+    },
+    symptoms: {
+      title: 'Registro de Sintomas',
+      subtitle: 'Rastreie seus sintomas diários',
+      logSymptoms: 'Registrar Sintomas',
+      selectSymptoms: 'Selecionar Sintomas',
+      mood: 'Humor',
+      painLevel: 'Nível de Dor',
+      cramps: 'Cólicas',
+      headache: 'Dor de Cabeça',
+      bloating: 'Inchaço',
+      fatigue: 'Fadiga',
+      acne: 'Acne',
+      backPain: 'Dor nas Costas',
+      breastTenderness: 'Sensibilidade nos Seios',
+      nausea: 'Náusea',
+      diarrhea: 'Diarreia',
+      constipation: 'Constipação',
+      moodSwings: 'Mudanças de Humor',
+      anxiety: 'Ansiedade',
+      depression: 'Depressão',
+      insomnia: 'Insônia',
+      noSymptoms: 'Nenhum sintoma registrado ainda'
+    },
+    insights: {
+      title: 'Insights de Saúde',
+      subtitle: 'Análise de saúde com IA',
+      cyclePhase: 'Fase Atual do Ciclo',
+      symptomInsights: 'Insights de Sintomas',
+      moodTrends: 'Tendências de Humor',
+      predictions: 'Previsões de Sintomas',
+      forecast: 'Previsão para os Próximos 7 Dias',
+      commonSymptoms: 'Seus Sintomas Mais Comuns',
+      fertility: 'Calculadora de Fertilidade'
+    },
+    wellness: {
+      title: 'Centro de Bem-estar',
+      subtitle: 'Seu companheiro de saúde',
+      waterTracker: 'Rastreador de Água',
+      exerciseLogger: 'Registro de Exercícios',
+      sleepTracker: 'Rastreador de Sono',
+      nutritionTracker: 'Rastreador de Nutrição',
+      goalTracker: 'Metas de Saúde',
+      communitySupport: 'Apoio da Comunidade',
+      tips: 'Dicas de Bem-estar'
+    },
+    settings: {
+      title: 'Configurações',
+      subtitle: 'Gerencie suas preferências',
+      notifications: 'Notificações',
+      privacy: 'Privacidade e Segurança',
+      preferences: 'Preferências',
+      language: 'Idioma',
+      theme: 'Tema',
+      dataManagement: 'Gerenciamento de Dados',
+      emergencyContacts: 'Contatos de Emergência',
+      about: 'Sobre'
+    },
+    footer: {
+      disclaimer: 'Apenas para fins informativos. Sempre consulte um profissional de saúde para aconselhamento médico.'
+    },
+    advanced: {
+      title: 'Recursos Avançados',
+      subtitle: 'Ferramentas de ponta para rastreamento abrangente de saúde',
+      poweredBy: 'Recursos avançados alimentados por IA e tecnologia moderna',
+      voiceLogger: 'Registrador de Voz',
+      painMap: 'Mapa de Calor da Dor',
+      horoscope: 'Horóscopo Hormonal',
+      emergency: 'Emergência Menstrual',
+      fertility: 'Calculadora de Fertilidade',
+      supplements: 'Rastreador de Suplementos',
+      breastExam: 'Autoexame de Mama',
+      pcodDiet: 'Planejador de Dieta SOP',
+      pcodSymptoms: 'Rastreador de Sintomas SOP',
+      pcodExercise: 'Planejador de Exercícios SOP',
+      pcodWeight: 'Rastreador de Peso SOP'
+    }
+  },
+  
+  zh: {
+    // Chinese (Simplified)
+    common: {
+      appName: 'Aura',
+      tagline: '您的个人经期追踪伴侣',
+      logout: '登出',
+      back: '返回',
+      save: '保存',
+      cancel: '取消',
+      delete: '删除',
+      edit: '编辑',
+      add: '添加',
+      submit: '提交',
+      loading: '加载中...',
+      privateSecure: '私密安全',
+      yes: '是',
+      no: '否'
+    },
+    nav: {
+      dashboard: '仪表板',
+      calendar: '日历',
+      cycles: '周期追踪',
+      symptoms: '症状记录',
+      journal: '日记',
+      doctors: '医生咨询',
+      pcod: 'PCOS评估',
+      insights: '健康洞察',
+      wellness: '健康中心',
+      advanced: '高级',
+      settings: '设置'
+    },
+    auth: {
+      login: '登录',
+      register: '注册',
+      email: '电子邮件',
+      password: '密码',
+      confirmPassword: '确认密码',
+      loginTitle: '欢迎回来',
+      registerTitle: '创建账户',
+      noAccount: '没有账户？',
+      haveAccount: '已有账户？',
+      signUp: '注册',
+      signIn: '登录'
+    },
+    dashboard: {
+      welcome: '欢迎来到Aura',
+      overview: '您的健康概览',
+      nextPeriod: '下次月经',
+      daysUntil: '天后',
+      cycleTracking: '周期追踪',
+      avgCycleLength: '平均周期长度',
+      symptomLogger: '症状记录',
+      pcodRisk: 'PCOS风险',
+      healthScore: '健康评分',
+      quickStats: '快速统计',
+      streak: '连续天数'
+    },
+    cycles: {
+      title: '周期追踪',
+      subtitle: '追踪您的月经周期',
+      logCycle: '记录新周期',
+      startDate: '开始日期',
+      endDate: '结束日期',
+      flowIntensity: '流量强度',
+      light: '轻度',
+      medium: '中度',
+      heavy: '重度',
+      notes: '备注',
+      cycleHistory: '周期历史',
+      days: '天',
+      noCycles: '尚未记录周期'
+    },
+    symptoms: {
+      title: '症状记录',
+      subtitle: '追踪您的每日症状',
+      logSymptoms: '记录症状',
+      selectSymptoms: '选择症状',
+      mood: '心情',
+      painLevel: '疼痛程度',
+      cramps: '痉挛',
+      headache: '头痛',
+      bloating: '腹胀',
+      fatigue: '疲劳',
+      acne: '痤疮',
+      backPain: '背痛',
+      breastTenderness: '乳房胀痛',
+      nausea: '恶心',
+      diarrhea: '腹泻',
+      constipation: '便秘',
+      moodSwings: '情绪波动',
+      anxiety: '焦虑',
+      depression: '抑郁',
+      insomnia: '失眠',
+      noSymptoms: '尚未记录症状'
+    },
+    insights: {
+      title: '健康洞察',
+      subtitle: 'AI驱动的健康分析',
+      cyclePhase: '当前周期阶段',
+      symptomInsights: '症状洞察',
+      moodTrends: '情绪趋势',
+      predictions: '症状预测',
+      forecast: '未来7天预测',
+      commonSymptoms: '您最常见的症状',
+      fertility: '生育能力计算器'
+    },
+    wellness: {
+      title: '健康中心',
+      subtitle: '您的健康伴侣',
+      waterTracker: '饮水追踪',
+      exerciseLogger: '运动记录',
+      sleepTracker: '睡眠追踪',
+      nutritionTracker: '营养追踪',
+      goalTracker: '健康目标',
+      communitySupport: '社区支持',
+      tips: '健康小贴士'
+    },
+    settings: {
+      title: '设置',
+      subtitle: '管理您的偏好',
+      notifications: '通知',
+      privacy: '隐私与安全',
+      preferences: '偏好设置',
+      language: '语言',
+      theme: '主题',
+      dataManagement: '数据管理',
+      emergencyContacts: '紧急联系人',
+      about: '关于'
+    },
+    footer: {
+      disclaimer: '仅供参考。请始终咨询医疗专业人员以获取医疗建议。'
+    },
+    advanced: {
+      title: '高级功能',
+      subtitle: '全面健康追踪的尖端工具',
+      poweredBy: '由AI和现代技术驱动的高级功能',
+      voiceLogger: '语音症状记录器',
+      painMap: '疼痛热图',
+      horoscope: '激素占星',
+      emergency: '经期紧急情况',
+      fertility: '生育能力计算器',
+      supplements: '补充剂追踪器',
+      breastExam: '乳房自检',
+      pcodDiet: 'PCOS饮食计划',
+      pcodSymptoms: 'PCOS症状追踪器',
+      pcodExercise: 'PCOS运动计划',
+      pcodWeight: 'PCOS体重追踪器'
+    }
+  },
+  
+  ja: {
+    // Japanese
+    common: {
+      appName: 'Aura',
+      tagline: 'あなたの生理トラッキングパートナー',
+      logout: 'ログアウト',
+      back: '戻る',
+      save: '保存',
+      cancel: 'キャンセル',
+      delete: '削除',
+      edit: '編集',
+      add: '追加',
+      submit: '送信',
+      loading: '読み込み中...',
+      privateSecure: 'プライベート＆セキュア',
+      yes: 'はい',
+      no: 'いいえ'
+    },
+    nav: {
+      dashboard: 'ダッシュボード',
+      calendar: 'カレンダー',
+      cycles: '周期トラッカー',
+      symptoms: '症状記録',
+      journal: '日記',
+      doctors: '医師相談',
+      pcod: 'PCOS評価',
+      insights: '健康インサイト',
+      wellness: 'ウェルネスハブ',
+      advanced: '高度な機能',
+      settings: '設定'
+    },
+    auth: {
+      login: 'ログイン',
+      register: '登録',
+      email: 'メール',
+      password: 'パスワード',
+      confirmPassword: 'パスワード確認',
+      loginTitle: 'おかえりなさい',
+      registerTitle: 'アカウント作成',
+      noAccount: 'アカウントをお持ちでない方',
+      haveAccount: 'すでにアカウントをお持ちの方',
+      signUp: '登録',
+      signIn: 'ログイン'
+    },
+    dashboard: {
+      welcome: 'Auraへようこそ',
+      overview: '健康概要',
+      nextPeriod: '次の生理',
+      daysUntil: '日後',
+      cycleTracking: '周期トラッキング',
+      avgCycleLength: '平均周期長',
+      symptomLogger: '症状記録',
+      pcodRisk: 'PCOSリスク',
+      healthScore: '健康スコア',
+      quickStats: 'クイック統計',
+      streak: '連続日数'
+    },
+    cycles: {
+      title: '周期トラッカー',
+      subtitle: '生理周期を記録',
+      logCycle: '新しい周期を記録',
+      startDate: '開始日',
+      endDate: '終了日',
+      flowIntensity: '経血量',
+      light: '少量',
+      medium: '普通',
+      heavy: '多量',
+      notes: 'メモ',
+      cycleHistory: '周期履歴',
+      days: '日',
+      noCycles: 'まだ周期が記録されていません'
+    },
+    symptoms: {
+      title: '症状記録',
+      subtitle: '毎日の症状を記録',
+      logSymptoms: '症状を記録',
+      selectSymptoms: '症状を選択',
+      mood: '気分',
+      painLevel: '痛みのレベル',
+      cramps: '生理痛',
+      headache: '頭痛',
+      bloating: '膨満感',
+      fatigue: '疲労',
+      acne: 'ニキビ',
+      backPain: '腰痛',
+      breastTenderness: '胸の張り',
+      nausea: '吐き気',
+      diarrhea: '下痢',
+      constipation: '便秘',
+      moodSwings: '気分の変動',
+      anxiety: '不安',
+      depression: 'うつ',
+      insomnia: '不眠',
+      noSymptoms: 'まだ症状が記録されていません'
+    },
+    insights: {
+      title: '健康インサイト',
+      subtitle: 'AI駆動の健康分析',
+      cyclePhase: '現在の周期段階',
+      symptomInsights: '症状の洞察',
+      moodTrends: '気分の傾向',
+      predictions: '症状予測',
+      forecast: '今後7日間の予測',
+      commonSymptoms: 'よくある症状',
+      fertility: '妊娠可能性計算機'
+    },
+    wellness: {
+      title: 'ウェルネスハブ',
+      subtitle: 'あなたの健康パートナー',
+      waterTracker: '水分摂取記録',
+      exerciseLogger: '運動記録',
+      sleepTracker: '睡眠記録',
+      nutritionTracker: '栄養記録',
+      goalTracker: '健康目標',
+      communitySupport: 'コミュニティサポート',
+      tips: 'ウェルネスのヒント'
+    },
+    settings: {
+      title: '設定',
+      subtitle: '設定を管理',
+      notifications: '通知',
+      privacy: 'プライバシーとセキュリティ',
+      preferences: '設定',
+      language: '言語',
+      theme: 'テーマ',
+      dataManagement: 'データ管理',
+      emergencyContacts: '緊急連絡先',
+      about: 'について'
+    },
+    footer: {
+      disclaimer: '情報提供のみを目的としています。医療アドバイスについては、必ず医療専門家にご相談ください。'
+    },
+    advanced: {
+      title: '高度な機能',
+      subtitle: '包括的な健康追跡のための最先端ツール',
+      poweredBy: 'AIと最新技術による高度な機能',
+      voiceLogger: '音声症状記録',
+      painMap: '痛みヒートマップ',
+      horoscope: 'ホルモン占い',
+      emergency: '生理の緊急事態',
+      fertility: '妊娠可能性計算機',
+      supplements: 'サプリメント記録',
+      breastExam: '乳房自己検査',
+      pcodDiet: 'PCOS食事プランナー',
+      pcodSymptoms: 'PCOS症状トラッカー',
+      pcodExercise: 'PCOS運動プランナー',
+      pcodWeight: 'PCOS体重トラッカー'
+    }
+  },
+  
+  ko: {
+    // Korean
+    common: {
+      appName: 'Aura',
+      tagline: '당신의 개인 생리 추적 동반자',
+      logout: '로그아웃',
+      back: '뒤로',
+      save: '저장',
+      cancel: '취소',
+      delete: '삭제',
+      edit: '편집',
+      add: '추가',
+      submit: '제출',
+      loading: '로딩 중...',
+      privateSecure: '개인정보 보호 및 보안',
+      yes: '예',
+      no: '아니오'
+    },
+    nav: {
+      dashboard: '대시보드',
+      calendar: '달력',
+      cycles: '주기 추적기',
+      symptoms: '증상 기록',
+      journal: '일기',
+      doctors: '의사 상담',
+      pcod: 'PCOS 평가',
+      insights: '건강 인사이트',
+      wellness: '웰니스 허브',
+      advanced: '고급 기능',
+      settings: '설정'
+    },
+    auth: {
+      login: '로그인',
+      register: '회원가입',
+      email: '이메일',
+      password: '비밀번호',
+      confirmPassword: '비밀번호 확인',
+      loginTitle: '다시 오신 것을 환영합니다',
+      registerTitle: '계정 만들기',
+      noAccount: '계정이 없으신가요?',
+      haveAccount: '이미 계정이 있으신가요?',
+      signUp: '가입하기',
+      signIn: '로그인'
+    },
+    dashboard: {
+      welcome: 'Aura에 오신 것을 환영합니다',
+      overview: '건강 개요',
+      nextPeriod: '다음 생리',
+      daysUntil: '일 후',
+      cycleTracking: '주기 추적',
+      avgCycleLength: '평균 주기 길이',
+      symptomLogger: '증상 기록',
+      pcodRisk: 'PCOS 위험',
+      healthScore: '건강 점수',
+      quickStats: '빠른 통계',
+      streak: '연속 일수'
+    },
+    cycles: {
+      title: '주기 추적기',
+      subtitle: '생리 주기 기록',
+      logCycle: '새 주기 기록',
+      startDate: '시작일',
+      endDate: '종료일',
+      flowIntensity: '출혈량',
+      light: '적음',
+      medium: '보통',
+      heavy: '많음',
+      notes: '메모',
+      cycleHistory: '주기 기록',
+      days: '일',
+      noCycles: '아직 기록된 주기가 없습니다'
+    },
+    symptoms: {
+      title: '증상 기록',
+      subtitle: '매일의 증상 기록',
+      logSymptoms: '증상 기록하기',
+      selectSymptoms: '증상 선택',
+      mood: '기분',
+      painLevel: '통증 수준',
+      cramps: '생리통',
+      headache: '두통',
+      bloating: '복부 팽만',
+      fatigue: '피로',
+      acne: '여드름',
+      backPain: '요통',
+      breastTenderness: '유방 통증',
+      nausea: '메스꺼움',
+      diarrhea: '설사',
+      constipation: '변비',
+      moodSwings: '기분 변화',
+      anxiety: '불안',
+      depression: '우울',
+      insomnia: '불면증',
+      noSymptoms: '아직 기록된 증상이 없습니다'
+    },
+    insights: {
+      title: '건강 인사이트',
+      subtitle: 'AI 기반 건강 분석',
+      cyclePhase: '현재 주기 단계',
+      symptomInsights: '증상 인사이트',
+      moodTrends: '기분 추세',
+      predictions: '증상 예측',
+      forecast: '향후 7일 예측',
+      commonSymptoms: '가장 흔한 증상',
+      fertility: '가임력 계산기'
+    },
+    wellness: {
+      title: '웰니스 허브',
+      subtitle: '건강 동반자',
+      waterTracker: '물 섭취 기록',
+      exerciseLogger: '운동 기록',
+      sleepTracker: '수면 기록',
+      nutritionTracker: '영양 기록',
+      goalTracker: '건강 목표',
+      communitySupport: '커뮤니티 지원',
+      tips: '웰니스 팁'
+    },
+    settings: {
+      title: '설정',
+      subtitle: '환경설정 관리',
+      notifications: '알림',
+      privacy: '개인정보 및 보안',
+      preferences: '환경설정',
+      language: '언어',
+      theme: '테마',
+      dataManagement: '데이터 관리',
+      emergencyContacts: '긴급 연락처',
+      about: '정보'
+    },
+    footer: {
+      disclaimer: '정보 제공 목적으로만 사용됩니다. 의료 조언은 항상 의료 전문가와 상담하십시오.'
+    },
+    advanced: {
+      title: '고급 기능',
+      subtitle: '포괄적인 건강 추적을 위한 최첨단 도구',
+      poweredBy: 'AI와 현대 기술로 구동되는 고급 기능',
+      voiceLogger: '음성 증상 기록기',
+      painMap: '통증 히트맵',
+      horoscope: '호르몬 운세',
+      emergency: '생리 응급상황',
+      fertility: '가임력 계산기',
+      supplements: '보충제 추적기',
+      breastExam: '유방 자가검진',
+      pcodDiet: 'PCOS 식단 계획',
+      pcodSymptoms: 'PCOS 증상 추적기',
+      pcodExercise: 'PCOS 운동 계획',
+      pcodWeight: 'PCOS 체중 추적기'
+    }
+  },
+  
+  ar: {
+    // Arabic
+    common: {
+      appName: 'أورا',
+      tagline: 'رفيقك الشخصي لتتبع الدورة الشهرية',
+      logout: 'تسجيل الخروج',
+      back: 'رجوع',
+      save: 'حفظ',
+      cancel: 'إلغاء',
+      delete: 'حذف',
+      edit: 'تعديل',
+      add: 'إضافة',
+      submit: 'إرسال',
+      loading: 'جاري التحميل...',
+      privateSecure: 'خاص وآمن',
+      yes: 'نعم',
+      no: 'لا'
+    },
+    nav: {
+      dashboard: 'لوحة التحكم',
+      calendar: 'التقويم',
+      cycles: 'متتبع الدورة',
+      symptoms: 'سجل الأعراض',
+      journal: 'اليوميات',
+      doctors: 'استشارة الطبيب',
+      pcod: 'تقييم متلازمة المبيض',
+      insights: 'رؤى صحية',
+      wellness: 'مركز العافية',
+      advanced: 'متقدم',
+      settings: 'الإعدادات'
+    },
+    auth: {
+      login: 'تسجيل الدخول',
+      register: 'التسجيل',
+      email: 'البريد الإلكتروني',
+      password: 'كلمة المرور',
+      confirmPassword: 'تأكيد كلمة المرور',
+      loginTitle: 'مرحباً بعودتك',
+      registerTitle: 'إنشاء حساب',
+      noAccount: 'ليس لديك حساب؟',
+      haveAccount: 'لديك حساب بالفعل؟',
+      signUp: 'سجل',
+      signIn: 'تسجيل الدخول'
+    },
+    dashboard: {
+      welcome: 'مرحباً بك في أورا',
+      overview: 'نظرة عامة على صحتك',
+      nextPeriod: 'الدورة القادمة',
+      daysUntil: 'أيام حتى الدورة القادمة',
+      cycleTracking: 'تتبع الدورة',
+      avgCycleLength: 'متوسط طول الدورة',
+      symptomLogger: 'سجل الأعراض',
+      pcodRisk: 'خطر متلازمة المبيض',
+      healthScore: 'درجة الصحة',
+      quickStats: 'إحصائيات سريعة',
+      streak: 'سلسلة الأيام'
+    },
+    cycles: {
+      title: 'متتبع الدورة',
+      subtitle: 'تتبع دورات الحيض',
+      logCycle: 'تسجيل دورة جديدة',
+      startDate: 'تاريخ البدء',
+      endDate: 'تاريخ الانتهاء',
+      flowIntensity: 'شدة التدفق',
+      light: 'خفيف',
+      medium: 'متوسط',
+      heavy: 'غزير',
+      notes: 'ملاحظات',
+      cycleHistory: 'سجل الدورات',
+      days: 'أيام',
+      noCycles: 'لم يتم تسجيل أي دورات بعد'
+    },
+    symptoms: {
+      title: 'سجل الأعراض',
+      subtitle: 'تتبع الأعراض اليومية',
+      logSymptoms: 'تسجيل الأعراض',
+      selectSymptoms: 'اختيار الأعراض',
+      mood: 'المزاج',
+      painLevel: 'مستوى الألم',
+      cramps: 'تقلصات',
+      headache: 'صداع',
+      bloating: 'انتفاخ',
+      fatigue: 'إرهاق',
+      acne: 'حب الشباب',
+      backPain: 'ألم الظهر',
+      breastTenderness: 'ألم الثدي',
+      nausea: 'غثيان',
+      diarrhea: 'إسهال',
+      constipation: 'إمساك',
+      moodSwings: 'تقلبات المزاج',
+      anxiety: 'قلق',
+      depression: 'اكتئاب',
+      insomnia: 'أرق',
+      noSymptoms: 'لم يتم تسجيل أي أعراض بعد'
+    },
+    insights: {
+      title: 'رؤى صحية',
+      subtitle: 'تحليل صحي مدعوم بالذكاء الاصطناعي',
+      cyclePhase: 'مرحلة الدورة الحالية',
+      symptomInsights: 'رؤى الأعراض',
+      moodTrends: 'اتجاهات المزاج',
+      predictions: 'توقعات الأعراض',
+      forecast: 'توقعات الأيام السبعة القادمة',
+      commonSymptoms: 'أعراضك الأكثر شيوعاً',
+      fertility: 'حاسبة الخصوبة'
+    },
+    wellness: {
+      title: 'مركز العافية',
+      subtitle: 'رفيقك الصحي',
+      waterTracker: 'متتبع الماء',
+      exerciseLogger: 'سجل التمارين',
+      sleepTracker: 'متتبع النوم',
+      nutritionTracker: 'متتبع التغذية',
+      goalTracker: 'الأهداف الصحية',
+      communitySupport: 'دعم المجتمع',
+      tips: 'نصائح العافية'
+    },
+    settings: {
+      title: 'الإعدادات',
+      subtitle: 'إدارة تفضيلاتك',
+      notifications: 'الإشعارات',
+      privacy: 'الخصوصية والأمان',
+      preferences: 'التفضيلات',
+      language: 'اللغة',
+      theme: 'المظهر',
+      dataManagement: 'إدارة البيانات',
+      emergencyContacts: 'جهات الاتصال الطارئة',
+      about: 'حول'
+    },
+    footer: {
+      disclaimer: 'لأغراض إعلامية فقط. استشر دائماً أخصائي رعاية صحية للحصول على المشورة الطبية.'
+    },
+    advanced: {
+      title: 'ميزات متقدمة',
+      subtitle: 'أدوات متطورة لتتبع صحي شامل',
+      poweredBy: 'ميزات متقدمة مدعومة بالذكاء الاصطناعي والتكنولوجيا الحديثة',
+      voiceLogger: 'مسجل الأعراض الصوتي',
+      painMap: 'خريطة الألم الحرارية',
+      horoscope: 'برجك الهرموني',
+      emergency: 'طوارئ الدورة',
+      fertility: 'حاسبة الخصوبة',
+      supplements: 'متتبع المكملات',
+      breastExam: 'الفحص الذاتي للثدي',
+      pcodDiet: 'مخطط النظام الغذائي لمتلازمة المبيض',
+      pcodSymptoms: 'متتبع أعراض متلازمة المبيض',
+      pcodExercise: 'مخطط التمارين لمتلازمة المبيض',
+      pcodWeight: 'متتبع الوزن لمتلازمة المبيض'
+    }
+  },
+  
+  ru: {
+    // Russian
+    common: {
+      appName: 'Aura',
+      tagline: 'Ваш личный трекер менструального цикла',
+      logout: 'Выйти',
+      back: 'Назад',
+      save: 'Сохранить',
+      cancel: 'Отмена',
+      delete: 'Удалить',
+      edit: 'Редактировать',
+      add: 'Добавить',
+      submit: 'Отправить',
+      loading: 'Загрузка...',
+      privateSecure: 'Конфиденциально и безопасно',
+      yes: 'Да',
+      no: 'Нет'
+    },
+    nav: {
+      dashboard: 'Панель управления',
+      calendar: 'Календарь',
+      cycles: 'Трекер циклов',
+      symptoms: 'Журнал симптомов',
+      journal: 'Дневник',
+      doctors: 'Консультация врача',
+      pcod: 'Оценка СПКЯ',
+      insights: 'Здоровье',
+      wellness: 'Центр здоровья',
+      advanced: 'Расширенные',
+      settings: 'Настройки'
+    },
+    auth: {
+      login: 'Войти',
+      register: 'Регистрация',
+      email: 'Электронная почта',
+      password: 'Пароль',
+      confirmPassword: 'Подтвердите пароль',
+      loginTitle: 'С возвращением',
+      registerTitle: 'Создать аккаунт',
+      noAccount: 'Нет аккаунта?',
+      haveAccount: 'Уже есть аккаунт?',
+      signUp: 'Зарегистрироваться',
+      signIn: 'Войти'
+    },
+    dashboard: {
+      welcome: 'Добро пожаловать в Aura',
+      overview: 'Обзор здоровья',
+      nextPeriod: 'Следующая менструация',
+      daysUntil: 'дней до следующей менструации',
+      cycleTracking: 'Отслеживание цикла',
+      avgCycleLength: 'Средняя длина цикла',
+      symptomLogger: 'Журнал симптомов',
+      pcodRisk: 'Риск СПКЯ',
+      healthScore: 'Оценка здоровья',
+      quickStats: 'Быстрая статистика',
+      streak: 'Серия дней'
+    },
+    cycles: {
+      title: 'Трекер циклов',
+      subtitle: 'Отслеживайте менструальные циклы',
+      logCycle: 'Записать новый цикл',
+      startDate: 'Дата начала',
+      endDate: 'Дата окончания',
+      flowIntensity: 'Интенсивность выделений',
+      light: 'Легкая',
+      medium: 'Средняя',
+      heavy: 'Обильная',
+      notes: 'Заметки',
+      cycleHistory: 'История циклов',
+      days: 'дней',
+      noCycles: 'Циклы еще не записаны'
+    },
+    symptoms: {
+      title: 'Журнал симптомов',
+      subtitle: 'Отслеживайте ежедневные симптомы',
+      logSymptoms: 'Записать симптомы',
+      selectSymptoms: 'Выбрать симптомы',
+      mood: 'Настроение',
+      painLevel: 'Уровень боли',
+      cramps: 'Спазмы',
+      headache: 'Головная боль',
+      bloating: 'Вздутие',
+      fatigue: 'Усталость',
+      acne: 'Акне',
+      backPain: 'Боль в спине',
+      breastTenderness: 'Болезненность груди',
+      nausea: 'Тошнота',
+      diarrhea: 'Диарея',
+      constipation: 'Запор',
+      moodSwings: 'Перепады настроения',
+      anxiety: 'Тревога',
+      depression: 'Депрессия',
+      insomnia: 'Бессонница',
+      noSymptoms: 'Симптомы еще не записаны'
+    },
+    insights: {
+      title: 'Здоровье',
+      subtitle: 'Анализ здоровья с помощью ИИ',
+      cyclePhase: 'Текущая фаза цикла',
+      symptomInsights: 'Анализ симптомов',
+      moodTrends: 'Тенденции настроения',
+      predictions: 'Прогнозы симптомов',
+      forecast: 'Прогноз на следующие 7 дней',
+      commonSymptoms: 'Ваши наиболее частые симптомы',
+      fertility: 'Калькулятор фертильности'
+    },
+    wellness: {
+      title: 'Центр здоровья',
+      subtitle: 'Ваш помощник по здоровью',
+      waterTracker: 'Трекер воды',
+      exerciseLogger: 'Журнал упражнений',
+      sleepTracker: 'Трекер сна',
+      nutritionTracker: 'Трекер питания',
+      goalTracker: 'Цели здоровья',
+      communitySupport: 'Поддержка сообщества',
+      tips: 'Советы по здоровью'
+    },
+    settings: {
+      title: 'Настройки',
+      subtitle: 'Управление настройками',
+      notifications: 'Уведомления',
+      privacy: 'Конфиденциальность и безопасность',
+      preferences: 'Предпочтения',
+      language: 'Язык',
+      theme: 'Тема',
+      dataManagement: 'Управление данными',
+      emergencyContacts: 'Экстренные контакты',
+      about: 'О приложении'
+    },
+    footer: {
+      disclaimer: 'Только в информационных целях. Всегда консультируйтесь с медицинским работником для получения медицинской консультации.'
+    },
+    advanced: {
+      title: 'Расширенные функции',
+      subtitle: 'Передовые инструменты для комплексного отслеживания здоровья',
+      poweredBy: 'Расширенные функции на основе ИИ и современных технологий',
+      voiceLogger: 'Голосовой регистратор симптомов',
+      painMap: 'Тепловая карта боли',
+      horoscope: 'Гормональный гороскоп',
+      emergency: 'Экстренная помощь при менструации',
+      fertility: 'Калькулятор фертильности',
+      supplements: 'Трекер добавок',
+      breastExam: 'Самообследование груди',
+      pcodDiet: 'Планировщик диеты при СПКЯ',
+      pcodSymptoms: 'Трекер симптомов СПКЯ',
+      pcodExercise: 'Планировщик упражнений при СПКЯ',
+      pcodWeight: 'Трекер веса при СПКЯ'
+    }
+  },
+  
+  it: {
+    // Italian
+    common: {
+      appName: 'Aura',
+      tagline: 'Il Tuo Compagno Personale per il Tracciamento del Ciclo',
+      logout: 'Esci',
+      back: 'Indietro',
+      save: 'Salva',
+      cancel: 'Annulla',
+      delete: 'Elimina',
+      edit: 'Modifica',
+      add: 'Aggiungi',
+      submit: 'Invia',
+      loading: 'Caricamento...',
+      privateSecure: 'Privato e Sicuro',
+      yes: 'Sì',
+      no: 'No'
+    },
+    nav: {
+      dashboard: 'Dashboard',
+      calendar: 'Calendario',
+      cycles: 'Tracker del Ciclo',
+      symptoms: 'Registro Sintomi',
+      journal: 'Diario',
+      doctors: 'Consulto Medico',
+      pcod: 'Valutazione PCOS',
+      insights: 'Approfondimenti Salute',
+      wellness: 'Centro Benessere',
+      advanced: 'Avanzate',
+      settings: 'Impostazioni'
+    },
+    auth: {
+      login: 'Accedi',
+      register: 'Registrati',
+      email: 'Email',
+      password: 'Password',
+      confirmPassword: 'Conferma Password',
+      loginTitle: 'Bentornato',
+      registerTitle: 'Crea Account',
+      noAccount: 'Non hai un account?',
+      haveAccount: 'Hai già un account?',
+      signUp: 'Registrati',
+      signIn: 'Accedi'
+    },
+    dashboard: {
+      welcome: 'Benvenuto su Aura',
+      overview: 'Panoramica Salute',
+      nextPeriod: 'Prossimo Ciclo',
+      daysUntil: 'giorni al prossimo ciclo',
+      cycleTracking: 'Tracciamento Ciclo',
+      avgCycleLength: 'Durata Media del Ciclo',
+      symptomLogger: 'Registro Sintomi',
+      pcodRisk: 'Rischio PCOS',
+      healthScore: 'Punteggio Salute',
+      quickStats: 'Statistiche Rapide',
+      streak: 'Serie di Giorni'
+    },
+    cycles: {
+      title: 'Tracker del Ciclo',
+      subtitle: 'Traccia i tuoi cicli mestruali',
+      logCycle: 'Registra Nuovo Ciclo',
+      startDate: 'Data di Inizio',
+      endDate: 'Data di Fine',
+      flowIntensity: 'Intensità del Flusso',
+      light: 'Leggero',
+      medium: 'Medio',
+      heavy: 'Abbondante',
+      notes: 'Note',
+      cycleHistory: 'Storico Cicli',
+      days: 'giorni',
+      noCycles: 'Nessun ciclo registrato'
+    },
+    symptoms: {
+      title: 'Registro Sintomi',
+      subtitle: 'Traccia i tuoi sintomi quotidiani',
+      logSymptoms: 'Registra Sintomi',
+      selectSymptoms: 'Seleziona Sintomi',
+      mood: 'Umore',
+      painLevel: 'Livello di Dolore',
+      cramps: 'Crampi',
+      headache: 'Mal di Testa',
+      bloating: 'Gonfiore',
+      fatigue: 'Affaticamento',
+      acne: 'Acne',
+      backPain: 'Mal di Schiena',
+      breastTenderness: 'Tensione al Seno',
+      nausea: 'Nausea',
+      diarrhea: 'Diarrea',
+      constipation: 'Stitichezza',
+      moodSwings: 'Sbalzi d\'Umore',
+      anxiety: 'Ansia',
+      depression: 'Depressione',
+      insomnia: 'Insonnia',
+      noSymptoms: 'Nessun sintomo registrato'
+    },
+    insights: {
+      title: 'Approfondimenti Salute',
+      subtitle: 'Analisi della salute con IA',
+      cyclePhase: 'Fase Attuale del Ciclo',
+      symptomInsights: 'Approfondimenti sui Sintomi',
+      moodTrends: 'Tendenze dell\'Umore',
+      predictions: 'Previsioni dei Sintomi',
+      forecast: 'Previsioni per i Prossimi 7 Giorni',
+      commonSymptoms: 'I Tuoi Sintomi Più Comuni',
+      fertility: 'Calcolatore di Fertilità'
+    },
+    wellness: {
+      title: 'Centro Benessere',
+      subtitle: 'Il tuo compagno di salute',
+      waterTracker: 'Tracker dell\'Acqua',
+      exerciseLogger: 'Registro Esercizi',
+      sleepTracker: 'Tracker del Sonno',
+      nutritionTracker: 'Tracker Nutrizionale',
+      goalTracker: 'Obiettivi di Salute',
+      communitySupport: 'Supporto della Comunità',
+      tips: 'Consigli per il Benessere'
+    },
+    settings: {
+      title: 'Impostazioni',
+      subtitle: 'Gestisci le tue preferenze',
+      notifications: 'Notifiche',
+      privacy: 'Privacy e Sicurezza',
+      preferences: 'Preferenze',
+      language: 'Lingua',
+      theme: 'Tema',
+      dataManagement: 'Gestione Dati',
+      emergencyContacts: 'Contatti di Emergenza',
+      about: 'Informazioni'
+    },
+    footer: {
+      disclaimer: 'Solo a scopo informativo. Consultare sempre un professionista sanitario per consigli medici.'
+    },
+    advanced: {
+      title: 'Funzionalità Avanzate',
+      subtitle: 'Strumenti all\'avanguardia per il monitoraggio completo della salute',
+      poweredBy: 'Funzionalità avanzate alimentate da IA e tecnologia moderna',
+      voiceLogger: 'Registratore Vocale Sintomi',
+      painMap: 'Mappa Termica del Dolore',
+      horoscope: 'Oroscopo Ormonale',
+      emergency: 'Emergenza Mestruale',
+      fertility: 'Calcolatore Fertilità',
+      supplements: 'Tracker Integratori',
+      breastExam: 'Autoesame del Seno',
+      pcodDiet: 'Pianificatore Dieta PCOS',
+      pcodSymptoms: 'Tracker Sintomi PCOS',
+      pcodExercise: 'Pianificatore Esercizi PCOS',
+      pcodWeight: 'Tracker Peso PCOS'
+    }
+  }
+};
+
+export const getTranslation = (lang, key) => {
+  const keys = key.split('.');
+  let value = translations[lang] || translations.en;
+  
+  for (const k of keys) {
+    value = value[k];
+    if (!value) return key;
+  }
+  
+  return value;
+};

@@ -1,0 +1,15 @@
+{
+  "short_name": "Aura",
+  "name": "Aura - Period Health Tracker",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ff6b6b",
+  "background_color": "#fff5f5"
+}
